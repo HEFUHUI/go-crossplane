@@ -25,7 +25,7 @@ func isSpace(s string) bool {
 }
 
 func repr(s string) string {
-	q := fmt.Sprintf("%q", s)
+	q := fmt.Sprintf("%s", s)
 	for _, char := range s {
 		if char == '"' {
 			q = strings.ReplaceAll(q, `\"`, `"`)

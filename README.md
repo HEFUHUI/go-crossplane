@@ -1,6 +1,6 @@
 # go-crossplane
 An unofficial Go port of the NGINX config/JSON converter [crossplane](https://github.com/nginxinc/crossplane).
-
+#### 修复build后输入到文件为字符串的问题
 ## Parse
 This is an example that takes a path to an NGINX config file, converts it to JSON, and prints the result to stdout.
 ```go
@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aluttik/go-crossplane"
+	"github.com/HEFUHUI/go-crossplane"
 )
 
 func main() {
@@ -43,7 +43,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/aluttik/go-crossplane"
+	"github.com/HEFUHUI/go-crossplanee"
 )
 
 func main() {
